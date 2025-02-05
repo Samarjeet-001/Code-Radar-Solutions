@@ -21,7 +21,7 @@ int main()
     }
     else if(a < 60)
     {
-        print("F");
+        printf("F");
     }
     return 0;
 }
