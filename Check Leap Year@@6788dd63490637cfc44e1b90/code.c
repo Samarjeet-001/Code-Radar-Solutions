@@ -2,11 +2,11 @@
 int main() {
     int y;
     scanf("%d",&y);
-    if(n % 4 == 0 && n % 100 != 0)
+    if(y % 4 == 0 && y % 100 != 0)
     {
         printf("Leap Year");
     }
-    else if(n % 4 == 0 && n % 400 == 0)
+    else if(y % 4 == 0 && y % 400 == 0)
     {
         printf("Not a Leap Year");
     }
