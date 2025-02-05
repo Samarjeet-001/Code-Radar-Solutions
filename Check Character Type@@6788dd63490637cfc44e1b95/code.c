@@ -10,9 +10,9 @@ int main() {
     {
         printf("Consonant");
     }
-    /*if(a>=0 && a<=9)
+    if(a>=0 && a<=9)
     {
         printf("Digit");
-    }*/
+    }
     return 0;
 }
