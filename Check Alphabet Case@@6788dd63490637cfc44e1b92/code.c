@@ -6,11 +6,11 @@ int main() {
     b = toupper(a);
     if(a != b)
     {
-        printf("Uppercase");
+        printf("Lowercase");
     }
     else if(a == b)
     {
-        printf("Lowercase");
+        printf("Uppercase");
     }
     else
     {
