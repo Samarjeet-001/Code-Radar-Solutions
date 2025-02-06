@@ -3,7 +3,6 @@ int main()
 {
     int a,b;
     char ch;
-    printf("Enter: ");
     scanf("%d %d %c",&a,&b,&ch);
     switch(ch)
     {
