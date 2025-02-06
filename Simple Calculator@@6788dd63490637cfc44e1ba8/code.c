@@ -7,7 +7,6 @@ int main()
     if(b == 0 && ch == '/')
     {
         printf("error");
-        break;
     }
     switch(ch)
     {
