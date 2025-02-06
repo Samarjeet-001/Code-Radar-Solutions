@@ -3,20 +3,20 @@ int main()
 {
     int a,b;
     char o;
-    scanf("%d%d%c",&a,&b,&c);
-    if(c == '+')
+    scanf("%d%d%c",&a,&b,&o);
+    if(o == '+')
     {
         printf("%d",a+b);
     }
-    else if(c == '-')
+    else if(o == '-')
     {
         printf("%d",a-b);
     }
-    else if(c == '*')
+    else if(o == '*')
     {
         printf("%d",a*b);
     }
-    else if(c == '/')
+    else if(o == '/')
     {
         printf("%d",a/b);
     }
