@@ -1,25 +1,27 @@
-#include<stdio.h>
+# include<stdio.h>
 int main()
 {
     int a,b;
-    char o;
-    scanf("%d%d%c",&a,&b,&o);
-    if(o == '+')
+    char ch;
+    printf("Enter: ");
+    scanf("%d %d %c",&a,&b,&ch);
+    switch(ch)
     {
-        c = a+b;
-        printf("%d",c);
-    }
-    else if(o == '-')
-    {
+        case '+':
+        printf("%d",a+b);
+        break;
+        case '-':
         printf("%d",a-b);
-    }
-    else if(o == '*')
-    {
+        break;
+        case '*':
         printf("%d",a*b);
-    }
-    else if(o == '/')
-    {
+        break;
+        case '/':
         printf("%d",a/b);
+        break;
+        default:
+        printf("Invalid");
     }
-    return 0;
+    return (0);
+
 }
