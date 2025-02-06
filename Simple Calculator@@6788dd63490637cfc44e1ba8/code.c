@@ -3,21 +3,20 @@ int main()
 {
     float a,b;
     char ch;
-    printf("Enter: ");
     scanf("%f %f %c",&a,&b,&ch);
     switch(ch)
     {
         case '+':
-        printf("%f",a+b);
+        printf("%.f",a+b);
         break;
         case '-':
-        printf("%f",a-b);
+        printf("%.f",a-b);
         break;
         case '*':
-        printf("%f",a*b);
+        printf("%.f",a*b);
         break;
         case '/':
-        printf("%f",a/b);
+        printf("%.f",a/b);
         break;
         default:
         printf("Invalid");
