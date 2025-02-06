@@ -8,6 +8,8 @@ int main()
     {
         printf("error");
     }
+    else
+    {
     switch(ch)
     {
         case '+':
@@ -24,6 +26,7 @@ int main()
         break;
         default:
         printf("Invalid");
+    }
     }
     return (0);
 
