@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int a,b;
+    int a,b,c;
     char o;
     scanf("%d%d%c",&a,&b,&o);
     if(o == '+')
