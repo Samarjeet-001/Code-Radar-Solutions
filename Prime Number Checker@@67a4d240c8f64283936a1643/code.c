@@ -1,16 +1,4 @@
 #include<stdio.h>
-int isPrime();
-int main(){
-    int t;
-    scanf("%d",&t);
-    for(int i = 0;i<t;i++){
-        int num;
-        scanf("%d",&num);
-        printf("%d\n",isPrime(num));
-    }
-    return 0;
-}
-
 int isPrime(){
     int a,x=0;
     for(int i = 2;i<a;i++){
