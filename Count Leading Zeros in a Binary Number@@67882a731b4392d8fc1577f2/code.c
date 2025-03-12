@@ -4,7 +4,7 @@ int main() {
     unsigned int number;
     int count = 0;
     
-    printf("Enter an integer: ");
+    
     scanf("%u", &number);
 
     if (number == 0) {
