@@ -24,7 +24,6 @@ int main() {
     }
 
     // Print binary in reverse order
-    printf("Binary: ");
     for (int j = i - 1; j >= 0; j--) {
         printf("%d", binary[j]);
     }
