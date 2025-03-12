@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int number, n, resul
+    int number, n, result;
     scanf("%d", &number);
     scanf("%d", &n);
     result = number ^ (1 << (n - 1));
