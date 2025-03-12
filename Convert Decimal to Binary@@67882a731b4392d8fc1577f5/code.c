@@ -9,7 +9,7 @@ int main() {
 
     // Handle special case if number is 0
     if (number == 0) {
-        printf("Binary: 0\n");
+        printf("0\n");
         return 0;
     }
 
